@@ -1,0 +1,26 @@
+.example{
+	color: black;
+	text-align: center;
+	padding: 100px  ;
+}
+
+.example_item{
+	width: 33.333%;
+	height: 150px;
+	display: inline; /* quando usa o inline o elmento perde a latura e a largura*/
+					/* Inline dá propriedade de texto para os itens*/
+
+	padding: 50px 100px;
+
+}
+
+.example_item_first{
+	background:#4B0082;
+}
+
+.example_item_second{
+	background:#9400D3;
+}
+.example_item_third{
+	background:#BA55D3;
+}

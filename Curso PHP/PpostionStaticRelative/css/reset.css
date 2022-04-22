@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #A9A9A9;
+}
+
+body{
+
+	font-family: "Open Sans", sans-serif;
+}
+
+ul, li, ol{
+	list-style: none;
+}

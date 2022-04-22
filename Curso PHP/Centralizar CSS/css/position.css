@@ -1,0 +1,45 @@
+/*Absolute: Usa como contexto a tela*/
+
+
+.elementExample{
+	width: 200px;
+	height: 200px;
+	line-height: 200px; /*centraliza o texto verticalmente*/
+	background:  #fff;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.elementExample_first{
+	background-color: #6c5ce7;
+	position: absolute;
+	right: 0;
+
+}
+
+.elementExample_second{
+	background-color: #00b894;
+	position: absolute;
+	left:50%; /*alinhou o elemento a partir do lado esquerdo*/
+	top: 50%;
+	transform: translate(-50%,-50%);/*moveu 50% do próprio elemento para a esquerda- No Eixo X-Horizontal*/
+									/*moveu 50% do próprio elemento para a esquerda- No Eixo Y-Vertical*/
+}
+
+.elementExample_last{ 
+	position: absolute; /* faz com que o elemento filho de posicione em relação a ele e não a tela */
+	background-color: #d63031;
+}
+
+.elementExample-Internal{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: #00cec9;
+}

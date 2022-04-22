@@ -1,0 +1,32 @@
+/*Relative usa o próprio elemento como contexto. Propriedades Top, botton, left, right, z-index*/
+
+
+.elementExample{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+
+.elementFirst{
+	background: #8B008B;
+	position: relative;
+	top: 200px;
+	
+
+}
+
+.elementSecond{
+	background: #FFD700;
+	position: relative;
+	 /*Propriedade de profundidade, quanto maior mais a frente */
+	
+}
+
+.elementExample_isActive{
+		z-index: 1;
+}

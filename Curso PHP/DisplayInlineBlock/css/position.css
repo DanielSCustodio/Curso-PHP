@@ -1,0 +1,27 @@
+.example{
+	color: black;
+	text-align: center;
+	font-size: 100px;
+	
+}
+
+.example_item{
+	display: block; /* ocupa o espaço total da linha horizontal não permitindo colocar outro elemento aoa lado*/
+	width: 33.333%; /* Display bloc: Propriedade de locomoção margin:auto. Necessita da largura*/
+	height: 150px;
+	line-height: 150px;
+}
+
+.example_item_first{
+	background:#4B0082;
+}
+
+.example_item_second{
+	background:#9400D3;
+	margin-left: auto;
+}
+.example_item_third{
+	background:#BA55D3;
+	margin-left: auto;
+	margin-right:  auto;
+}
