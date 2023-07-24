@@ -21,3 +21,13 @@ function test (){
   echo "Local N: $n <br>";
 }
 test();
+
+function sum (){
+  global $n;
+  $result  = $n +12;
+  echo "$result <br>";
+  $n = 38;
+}
+sum();
+
+echo "$n <br>";
