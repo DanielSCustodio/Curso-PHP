@@ -36,7 +36,14 @@ function increment(){
   $a++;
   echo "$a <br>";
 }
+increment();
+increment();
+increment();
 
-increment();
-increment();
-increment();
+function subtraction($a, $b){
+  echo $a - $b;
+  echo "<br>";
+};
+subtraction(17, 6);
+subtraction(23, 15);
+subtraction(9, 64);
