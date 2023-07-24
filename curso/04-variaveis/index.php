@@ -29,5 +29,14 @@ function sum (){
   $n = 38;
 }
 sum();
-
 echo "$n <br>";
+
+function increment(){
+  static $a = 0;
+  $a++;
+  echo "$a <br>";
+}
+
+increment();
+increment();
+increment();
